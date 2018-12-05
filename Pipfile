@@ -4,9 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
+rest-server-example = {editable = true, path = "."}
+pytest = "~=4.0.0"
+pytest-cov = "~=2.6.0"
 
 [packages]
-rest-server-example = {editable = true,path = "."}
+rest-server-example = {editable = true, path = "."}
 
 [requires]
 python_version = "3.7"
